@@ -28,6 +28,8 @@ This article explains the possible reasons your {% data variables.product.produc
 ## Token revoked after reaching its expiration date
 
 When you create a {% data variables.product.pat_generic %}, we recommend that you set an expiration for your token. Upon reaching your token's expiration date, the token is automatically revoked. For more information, see "[Creating a {% data variables.product.pat_generic %}](/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)."
+
+Notifications will be sent out 7 days before, 24 hours before, and after the expiration has expired. 
 {% endif %}
 
 {% ifversion fpt or ghec %}
